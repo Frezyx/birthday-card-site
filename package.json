@@ -1,0 +1,28 @@
+{
+  "name": "birthday-card-site",
+  "version": "0.0.1",
+  "description": "Сайт - поздравительная открытка",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "13.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Frezyx/birthday-card-site"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "static",
+    "birthday"
+  ],
+  "author": "Stanislav Ilin",
+  "contributors": [],
+  "license": ""
+}

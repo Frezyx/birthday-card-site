@@ -1,0 +1,7 @@
+{
+  "name": "Birthday Card Site",
+  "description": "Сайт - поздравительная открытка",
+  "repository": "https://github.com/Frezyx/birthday-card-site",
+  "logo": "",
+  "keywords": ["node", "express", "static", "birthday"]
+}
