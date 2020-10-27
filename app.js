@@ -1,11 +1,12 @@
-var express = require('express')
-var app = express()
+let express = require('express')
+let app = express()
+let fs = require("fs");
 
 app.set('port', (process.env.PORT || 3000))
 app.use(express.static(__dirname + '/public'))
 
 app.get('/', function(request, response) {
-  response.send('I am alive')
+  response.send(fs.readFileSync('./public/index.html'))
 })
 
 app.listen(app.get('port'), function() {
